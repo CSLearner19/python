@@ -1,0 +1,13 @@
+class Pet:
+    def __init__(self,name,animal,age):
+        self.name = name
+        self.animal = animal
+        self.age = age
+    def show_info(self):
+        print("Name:", self.name)
+        print("Animal:",self.animal)
+        print("Age:",self.age)
+pet1 = Pet("Max","Dog",4)
+pet2 = Pet("Luna","Cat",2)
+pet1.show_info()
+pet2.show_info()
